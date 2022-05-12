@@ -82,7 +82,6 @@ else { echo '<h3>No user details.</h3>
 <p><strong> Expire Date : </strong> '  . $row['exp_month'] . '   '  . $row['exp_year'] . '</p>
 	<button type="button" class="btn btn-link" data-toggle="modal" data-target="#card">
 		<i class="fa fa-credit-card"></i>  Update Card 
-CONT
 	</button>
 		</div>
 	</div>
