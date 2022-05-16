@@ -87,6 +87,16 @@ else { echo '<div class="alert alert-danger" alert-dismissible fade show" role="
 	<script src="https://kit.fontawesome.com/bb3ef965c3.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
+	
+	
+	
+	<div class="col-8 col-sm-6">
+	<?php
+	# ads if user is basic
+	include ( 'adv.php' ) ;
+	?>
+	</div>
+	
 	<br>
 	<h1 class="text-center">Latest movies</h1>
 	<div class="container" >
@@ -161,7 +171,3 @@ endif;
 	</footer>
 </html>
 
-
-<?php
-include ( 'footer.html' ) ;
-?>
