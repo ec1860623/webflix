@@ -82,7 +82,3 @@ $q = "SELECT * FROM user_details WHERE user_id={$_SESSION[user_id]}" ;
 
 
 
-<?php
-# Display footer section.
-include ( 'footer.html' ) ; 
-?>
