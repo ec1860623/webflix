@@ -35,6 +35,16 @@ if ($_SESSION[ 'role' ] == 'admin'){
 				
 	</head>
 	<body>
+	
+	
+		<div class="col-8 col-sm-6">
+	<?php
+	# ads if user is basic
+	include ( 'adv.php' ) ;
+	?>
+	</div>
+	
+	
 	<div class="container" >
                     <form action='series_results.php' method='POST'>
                       <select  name='option' style='padding:5px;'>

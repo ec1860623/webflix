@@ -14,6 +14,13 @@ if ( !isset( $_SESSION[ 'user_id' ] ) ) { require ( 'login_tools.php' ) ; load()
 # Open database connection.
 require ( 'connect_db.php' ) ;
 
+
+
+	# ads if user is basic
+	include ( 'adv.php' ) ;
+
+
+
 $q = "SELECT * FROM user_details WHERE user_id={$_SESSION[user_id]}" ;
 	$r = mysqli_query( $link, $q ) ;
 	if ( mysqli_num_rows( $r ) > 0 )
