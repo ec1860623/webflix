@@ -54,7 +54,3 @@ include ( 'movie_search.php' ) ;
 
 
 
-<?php
-# Display footer section.
-include ( 'footer.html' ) ; 
-?>

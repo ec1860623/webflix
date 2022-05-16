@@ -3,6 +3,10 @@
 include ( 'logout.html' ) ;
 # Access session.
 session_start() ;
+
+# Redirect if not logged in.
+if ( !isset( $_SESSION[ 'user_id' ] ) ) { require ( 'login_tools.php' ) ; load() ; }
+
 # Check if admin.
 if ($_SESSION[ 'role' ] == 'admin'){
 	include ( 'admin_nav.html' ) ;
@@ -49,7 +53,3 @@ if ($_SESSION[ 'role' ] == 'admin'){
 </body>
 </html>
 
-
-<?php
-include ( 'footer.html' ) ;
-?>

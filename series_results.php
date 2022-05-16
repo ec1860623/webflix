@@ -53,7 +53,3 @@ include ( 'series_search.php' ) ;
 </html>
 
 
-<?php
-# Display footer section.
-include ( 'footer.html' ) ; 
-?>

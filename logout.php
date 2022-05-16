@@ -211,6 +211,3 @@ echo '<h1>Goodbye!</h1><p>You are now logged out.</p>' ;
   </body>
 </html>
 
-<?php 
-include ( 'footer.html' ) ;
-?>

@@ -149,6 +149,3 @@ if ( isset( $errors ) && !empty( $errors ) )
   </body>
 </html>
 
-<?php 
-include ( 'footer.html' ) ;
-?>

@@ -485,7 +485,3 @@ else { echo '<div class="alert alert-danger" alert-dismissible fade show" role="
 
 
 
-<?php
-# Display footer section.
-include ( 'footer.html' ) ; 
-?>

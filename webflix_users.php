@@ -140,6 +140,7 @@ $conn->close();
         class="btn btn-dark btn-lg btn-block" value="Save Changes"/>
            </div>
          </div>
+	
  </form>
       </div><!--Close body-->
     </div><!--Close modal-body-->
@@ -150,12 +151,15 @@ $conn->close();
 
 
 
-
 </body>
+<footer>
+	 <br>
+		 <br>
+		 <br>
+		 <br>
+		 <br>
+		 <br>
+</footer>
 </html>
 
 
-<?php
-# Display footer section.
-include ( 'footer.html' ) ; 
-?>

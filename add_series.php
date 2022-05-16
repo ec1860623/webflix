@@ -183,7 +183,3 @@ if ( $_SERVER[ 'REQUEST_METHOD' ] == 'POST' )
 
 
 
-<?php
-# Display footer section.
-include ( 'footer.html' ) ; 
-?>

@@ -93,7 +93,3 @@ endif;
 </html>
 
 
-<?php
-# Display footer section.
-include ( 'footer.html' ) ; 
-?>

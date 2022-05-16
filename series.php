@@ -17,6 +17,9 @@ if ($_SESSION[ 'role' ] == 'admin'){
 # Open database connection.
 require ( 'connect_db.php' ) ;
 
+# ads if user is basic
+include ( 'adv.php' ) ;
+
 # Retrieve selective item data from 'series' database table. 
 $q = "SELECT * FROM series WHERE series_id = $id" ;
 $r = mysqli_query( $link, $q ) ;
@@ -81,6 +84,5 @@ if ( mysqli_num_rows( $r ) == 1 )
 mysqli_close($link);
 
 
-# Display footer section.
-include ( 'footer.html' ) ;
+
 ?>
